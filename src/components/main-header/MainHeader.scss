@@ -9,6 +9,16 @@
 
     img {
       width: 100%;
+      animation: fade-in 0.5s ease-in forwards;
     }
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
