@@ -1,0 +1,14 @@
+.main-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+
+  &__image-container {
+    width: 180px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

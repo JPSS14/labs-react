@@ -1,11 +1,11 @@
 import "./App.css";
-import labsLogo from "./assets/labs-react.png";
+import { MainHeader } from "./components/main-header";
 
 function App() {
   return (
     <>
       <div>
-        <img src={labsLogo} className="logo" alt="" />
+        <MainHeader />
       </div>
     </>
   );
