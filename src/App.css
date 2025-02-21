@@ -1,3 +1,7 @@
 #root {
   max-width: 1536px;
 }
+
+.main{
+  width: 100%;
+}
