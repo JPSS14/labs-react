@@ -1,0 +1,11 @@
+.mainMenuItem {
+  border: solid 2px #000;
+  width: 150px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
