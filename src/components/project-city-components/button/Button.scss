@@ -1,0 +1,19 @@
+.button {
+  width: 116px;
+  height: 35px;
+  cursor: pointer;
+  font-weight: 700;
+  color: #fff;
+  background: #13b782;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+
+  &:hover {
+    background: #0f9e6f;
+  }
+}
+
+.fullWidth {
+  width: 100%;
+}
