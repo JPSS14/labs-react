@@ -1,5 +1,10 @@
+import { Link } from "react-router-dom";
 import "./MainMenuItem.scss";
 
 export const MainMenuItem = () => {
-  return <button className="mainMenuItem">Project City</button>;
+  return (
+    <Link to="/project-city">
+      <button className="mainMenuItem">Project City</button>
+    </Link>
+  );
 };
