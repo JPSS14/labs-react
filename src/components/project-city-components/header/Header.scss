@@ -17,4 +17,15 @@
       width: 100%;
     }
   }
+
+  &__nav {
+    display: flex;
+
+    .header__separator {
+      width: 2px;
+      height: 60px;
+      background-color: white;
+      margin-left: 24px;
+    }
+  }
 }

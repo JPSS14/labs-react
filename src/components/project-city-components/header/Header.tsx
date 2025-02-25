@@ -15,6 +15,7 @@ export const Header = () => {
             />
           </div>
         </Link>
+        <div className="header__separator"></div>
       </nav>
     </header>
   );
