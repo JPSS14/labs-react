@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Header.scss";
+import { NavLinks } from "../nav-links";
 
 export const Header = () => {
   return (
@@ -16,6 +17,7 @@ export const Header = () => {
           </div>
         </Link>
         <div className="header__separator"></div>
+        <NavLinks />
       </nav>
     </header>
   );
