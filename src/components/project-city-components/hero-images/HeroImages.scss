@@ -1,0 +1,51 @@
+.heroImages {
+  width: calc(100% - 344px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__container--left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 24px;
+    align-self: flex-start;
+
+    & img:first-child {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__container--right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 24px;
+    align-self: end;
+
+    & img:first-child {
+      margin-top: 16px;
+    }
+  }
+
+  &__item {
+    img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    &--main {
+      width: 392px;
+    }
+
+    &--midle {
+      width: 183px;
+    }
+
+    &--mini {
+      width: 79px;
+    }
+  }
+}
