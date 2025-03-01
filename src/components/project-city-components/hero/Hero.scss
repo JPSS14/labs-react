@@ -1,0 +1,35 @@
+.hero {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 40px 32px 32px 32px;
+
+  &__container {
+    width: 1224px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__header {
+    max-width: 344px;
+
+    h1 {
+      font-size: 40px;
+      line-height: 1;
+      margin-bottom: 24px;
+    }
+
+    strong {
+      color: #0094d9;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+  }
+}
