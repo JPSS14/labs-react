@@ -33,3 +33,14 @@
     }
   }
 }
+
+@media (max-width: 840px) {
+  .hero__container {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .hero__header {
+    width: 100%;
+    margin-top: 24px;
+  }
+}
