@@ -1,0 +1,40 @@
+.projects {
+  width: 100%;
+  background: #0094d9;
+  padding: 32px 32px 40px 32px;
+
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  &__header {
+    margin-bottom: 32px;
+    h2 {
+      color: #fff;
+      font-weight: 700;
+      font-size: 32px;
+    }
+  }
+
+  &__cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1076px) {
+  .projects__cards {
+    flex-direction: column;
+    align-items: center;
+
+    .projectsCard:nth-child(2) {
+      margin: 24px 0;
+    }
+  }
+}
