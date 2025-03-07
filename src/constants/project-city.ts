@@ -1,4 +1,7 @@
-import { ProjectsCardProps } from "../types/project-city.types";
+import {
+  EvidencesCardProps,
+  ProjectsCardProps,
+} from "../types/project-city.types";
 
 export const PROJECTS_CITY: ProjectsCardProps[] = [
   {
@@ -21,5 +24,30 @@ export const PROJECTS_CITY: ProjectsCardProps[] = [
     altImage: "FA Cup Taça",
     description:
       "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. ",
+  },
+];
+
+export const EVIDENCES_CITY: EvidencesCardProps[] = [
+  {
+    name: "Thiago Monteiro",
+    image: "people.png",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and  typesetting industry!",
+  },
+  {
+    name: "Serena Willians",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and  typesetting industry!",
+  },
+  {
+    name: "Joao Fonseca",
+    image: "people.png",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and  typesetting industry!",
+  },
+  {
+    name: "Serena Willians",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and  typesetting industry!",
   },
 ];
