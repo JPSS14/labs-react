@@ -40,13 +40,13 @@ export const EVIDENCES_CITY: EvidencesCardProps[] = [
       "Lorem Ipsum is simply dummy text of the printing and  typesetting industry!",
   },
   {
-    name: "Joao Fonseca",
-    image: "people.png",
+    name: "Serena Willians",
     description:
       "Lorem Ipsum is simply dummy text of the printing and  typesetting industry!",
   },
   {
-    name: "Serena Willians",
+    name: "João Fonseca",
+    image: "people.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and  typesetting industry!",
   },
